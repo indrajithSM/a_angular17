@@ -1,3 +1,8 @@
+Run the code in power Shell 
+**Set-ExecutionPolicy  -Scope CurrentUser -ExecutionPolicy RemoteSigned**
+
+
+
 # Angular17
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.
