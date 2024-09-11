@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular17": {
+    "a_angular17": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular17",
+            "outputPath": "dist/a_angular17",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular17:build:production"
+              "buildTarget": "a_angular17:build:production"
             },
             "development": {
-              "buildTarget": "angular17:build:development"
+              "buildTarget": "a_angular17:build:development"
             }
           },
           "defaultConfiguration": "development"
